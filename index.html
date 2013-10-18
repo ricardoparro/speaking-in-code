@@ -16,13 +16,17 @@
         <ul class="nav">
           <li>{{#link-to 'posts'}}Posts{{/link-to}}</li>
           <li>{{#link-to 'about'}}About{{/link-to}}</li>
+          <li>{{#link-to 'author'}}@ricardoparro{{/link-to}}</li>
         </ul>
       </div>
     </div>
 
     {{outlet}}
   </script>
-
+  <script type="text/x-handlebars" id="author">
+   <div class="container-fluid">
+   </div>
+  </script>
   <script type="text/x-handlebars" id="posts">
     <div class="container-fluid">
       <div class="row-fluid">
